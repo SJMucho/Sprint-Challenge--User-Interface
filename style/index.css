@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -31,6 +31,30 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.c1 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px
+  align-items: center; 
+}
+nav {
+  display: flex;
+  margin: 20px 0px
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.c1 img {
+  width: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -50,7 +74,10 @@ table {
 * {
     box-sizing: border-box;
 }
-
+.img2 {
+  align: center;
+  padding: 2% 20%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -117,7 +144,37 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+#b1 {
+  background: teal;
+}
+#b2 {
+  background: gold;
+}
+#b3 {
+  background: cadetblue;
+}
+#b4 {
+  background: coral;
+}
+#b5 {
+  background: crimson;
+}
+#b6 {
+  background: forestgreen;
+}
 
+#b7 {
+  background: darkorchid;
+}
+#b8 {
+  background: hotpink;
+}
+#b9 {
+  background: indigo;
+}
+#b10 {
+  background: dodgerblue;
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -143,4 +200,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 600px){
+    
 }
