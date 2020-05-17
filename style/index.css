@@ -11,7 +11,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, tfoot, thead, tr, th, td, 
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -31,28 +31,32 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.c1 {
-  width: 70%;
-  height: 100%;
+.flex-container {
+  border: 2px;
   display: flex;
-  justify-content: space-around;
-  margin: 20px 0px
-  align-items: center; 
-}
-nav {
-  display: flex;
-  margin: 20px 0px
-  justify-content: space-around;
-  align-items: center; 
+  box-sizing: border-box;
+  justify-content: center;
 }
 
-.c1 img {
-  width: 20%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu {
+  margin: 30px 40px;
+}
+
+.flex-container #img1 {
+  margin: 30px 0px;
 }
 
 a {
   text-decoration: none;
-  color: black
+  color: dimgrey;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 ol, ul {
@@ -66,6 +70,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -74,10 +79,15 @@ table {
 * {
     box-sizing: border-box;
 }
-.img2 {
-  align: center;
-  padding: 2% 20%;
+
+.c2 {
+  display: flex;
+  justify-content: center;
 }
+#img2 {
+  padding: 20px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -188,20 +198,20 @@ footer {
     background: black;
 }
 
-footer nav {
+footer .n2 {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.4px;
 }
 
-footer nav a {
+footer .n2 a {
     color: white;
     text-decoration: none;
 }
 
 @media (max-width: 600px){
-    
-}
+
+} 
