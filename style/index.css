@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 html {
     font-size: 62.5%;
   }
-  
+
 body {
 	line-height: 1;
 }
@@ -60,7 +60,7 @@ a {
   text-decoration: none;
   color: dimgrey;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 ol, ul {
@@ -84,12 +84,13 @@ table {
     box-sizing: border-box;
 }
 
+#img2 {
+  padding: 20px;
+}
+
 .c2 {
   display: flex;
   justify-content: center;
-}
-#img2 {
-  padding: 20px;
 }
 
 html, body {
@@ -98,13 +99,14 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.6rem;
 }
 
 .container {
@@ -158,6 +160,11 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+
+.boxes {
+  font-size: 1.6rem;
+  
+}
 #b1 {
   background: teal;
 }
@@ -208,7 +215,7 @@ footer .n2 {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 1.4px;
+    font-size: 1.4rem;
 }
 
 footer .n2 a {
@@ -216,10 +223,17 @@ footer .n2 a {
     text-decoration: none;
 }
 
-@media (max-width: 800px){
-
-} 
-
-@media (max-width: 500px) {
-
+@media(max-width: 800px){
+  a {
+    font-size: 2rem;
+  }
+}
+  
+  @media(max-width: 500px){
+    .middle-content .boxes .box {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+  }
 }
